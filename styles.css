@@ -1,0 +1,100 @@
+/*styles.css*/
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Have to set this, to make the image responsive */
+img {
+    max-width: 100%;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #222;
+}
+
+footer{
+    padding: 2.5rem 0 1rem;
+    background: lightpink;
+    font-size: 0.8rem;
+}
+
+#cover{
+    background : #222 url(images/work_cover.jpg) center center no-repeat;
+    height: 100%;
+    color: #222;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.navbar-trans {
+    background: transparent; }
+
+.cover-caption{
+    padding-top: 6rem;
+}
+
+.caption{
+    color: #ffffff;
+}
+
+.caption_auth{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 14rem;
+    margin-top: -1rem;
+}
+
+#quote{
+    text-align: center;
+}
+
+.quote-text{
+    line-height: 1.5;
+}
+
+.section-content{
+    padding : 5rem 0;
+}
+
+#about{
+    background: #222 url("images/photographer.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.about-text{
+    background-color: rgba(250,250,250,0.5);
+    padding: 1.875rem;
+}
+
+/*Diamond shape on the right hand side*/
+.diamond{
+    position: absolute;
+    right:0;
+    top:2.3rem;
+}
+
+.footer-menu{
+    text-indent: 40%;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 576px) {
+    .cover-caption{
+        padding-top: 1rem;
+    }
+    .diamond{
+        position: absolute;
+        right:0;
+        top:9rem;
+    }
+}
+
+
